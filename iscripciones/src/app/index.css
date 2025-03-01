@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .header {
+    background-color: #c8102e; /* Rojo Harvard */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .materia-list {
+    padding: 20px;
+  }
+  
+  .materia-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .materia-card {
+    background-color: #ffd100; /* Dorado Harvard */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  
+  .materia-card h3 {
+    color: #c8102e;
+  }
+  
+  button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a20e26;
+  }
+  
+  .resumen {
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resumen ul {
+    list-style-type: none;
+  }
+  
+  .resumen ul li {
+    margin-bottom: 10px;
+  }
+  
